@@ -1,0 +1,32 @@
+.file_manager_item {
+	user-select: none;
+}
+
+.file_manager_item__thumb {
+	text-align: center;
+	height: 128px;
+}
+
+.file_manager_item[data-type="folder"] {
+	cursor: pointer;
+
+	.file_manager_item__thumb {
+		i {
+			font-size: 7rem;
+		}
+	}
+}
+
+.file_manager_item[data-type="file"] {
+	.file_manager_item__thumb {
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+.file_manager_item__info {
+	text-align: center;
+}

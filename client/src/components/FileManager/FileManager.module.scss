@@ -1,0 +1,19 @@
+.file_manager {
+	background: #fff;
+	padding: 30px;
+}
+
+.file_manager_breadcrumb {
+	font-size: 20px !important;
+	margin-bottom: 30px !important;
+}
+
+.file_manager_grid {
+	margin-top: 30px;
+}
+
+:global {
+	.ant-breadcrumb-link {
+		cursor: pointer;
+	}
+}
