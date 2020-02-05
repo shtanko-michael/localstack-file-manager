@@ -4,6 +4,8 @@
 
 https://medium.com/@shtanko.michael/mocking-aws-with-localstack-in-net-core-3-ef32ae888706
 
+![A simple file manager preview](https://miro.medium.com/max/972/1*8qMBWW8amxVjcUCrqaewIA.png)
+
 ## Quick start
 
 ```bash
